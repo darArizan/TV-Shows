@@ -1,0 +1,22 @@
+.mainDescription{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto;
+
+    #moviePoster {
+        width: 60%;
+        margin: 0 auto;
+        img{
+            width: 70%;
+        }
+    }
+    & .seasonAndCast {
+        width: 40%;
+        text-align: left;
+    }
+    & .details {
+        margin-top: 20px;
+        text-align: justify;
+    }
+}
