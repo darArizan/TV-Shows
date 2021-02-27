@@ -38,7 +38,7 @@ function createShow(el) {
 
     movieContainer.addEventListener('click', function () {
         storeMovieId(id)
-        window.location.href = "onemovie.html";
+        window.location.href = "oneshow.html";
     });
 }
 

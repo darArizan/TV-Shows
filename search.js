@@ -37,7 +37,7 @@ function createOf(el) {
 
         storeMovieId(id)
         console.log(id)
-        window.location.href = "onemovie.html";
+        window.location.href = "oneshow.html";
 
     })
 }
@@ -59,6 +59,6 @@ button.addEventListener('click', function () {
 
 })
 back.addEventListener('click', function () {
-    window.location.href = "tvshow.html"
+    window.location.href = "tvshows.html"
     searchMenu()
 })
