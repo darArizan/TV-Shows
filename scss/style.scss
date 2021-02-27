@@ -33,11 +33,11 @@ footer{
 // }
 
 @media all and(max-width:768px ){
-
-    .visible{
-     
-        left: 279px;
-
+.navbar{
+    width: 100%;
+}
+.menu.visible{
+    margin-right: -42px;
 }
     
     .show{
@@ -56,33 +56,25 @@ footer{
     }
     
 }
-@media all and(max-width:576px){
-    .menu.visible{
-    top: 49px;
-left: 256px;
-    }
-}
 
 @media all and(max-width:414px){
     .menu.visible{
-        left: 16px;
-        top:77px;
+       margin-right: -50px;
     }
 }
 
+
 @media all and(max-width:376px){
     .menu.visible{
-        margin-left: 0px;
-        width: 244px;
-        }
+        margin-right: -49px;
+    }
         .btn{
             display: none;
         }
 }
 @media all and(max-width:321px){
     .menu.visible{
-        width: 244px;
-        left: 16px;
+        margin-right: -50px;
     }
     .show {
         width: 100%;
