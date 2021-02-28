@@ -13,7 +13,6 @@ function searchMenu() {
     var baseUrl = " http://api.tvmaze.com/search/shows?q=";
     req.open('GET', baseUrl + search.value)
     req.onload = function () {
-        console.log(JSON.parse(req.responseText))
         listOf((JSON.parse(req.responseText)))
     }
     req.send()
@@ -26,7 +25,6 @@ function listOf(drops) {
 }
 
 function createOf(el) {
-    console.log(el)
     var id = el.show.id
     var p = document.createElement('p')
     p.textContent = el.show.name;
